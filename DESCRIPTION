@@ -1,0 +1,5 @@
+Package: runappausbook
+Suggests: 
+    bslib,
+    downlit,
+    xml2
