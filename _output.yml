@@ -1,3 +1,8 @@
+bookdown::bs4_book:
+  theme:
+    primary: "#3a496a"
+    base_font: "Roboto"
+
 bookdown::gitbook:
   css: style.css
   config:
