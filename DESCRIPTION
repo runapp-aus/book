@@ -2,4 +2,5 @@ Package: runappausbook
 Suggests: 
     bslib,
     downlit,
+    servr,
     xml2

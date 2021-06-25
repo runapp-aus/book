@@ -2,6 +2,7 @@ bookdown::bs4_book:
   theme:
     primary: "#3a496a"
     base_font: "Roboto"
+  repo: https://github.com/runapp-aus/book
 
 #bookdown::gitbook:
 #  css: style.css

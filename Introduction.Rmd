@@ -1,0 +1,30 @@
+# Introduction
+
+## What we cover in this book
+This book is still being written, including what we do and don't cover! We welcome all contributions on the shape of this book.
+
+## What we don't cover in this book
+See above.
+
+## Contributing {#contributing}
+This book is being built in the open, so we welcome your pull requests and other recommendations through our [GitHub Repository](https://github.com/runapp-aus/book). 
+
+The runapp project is governed by a [Code of Conduct](https://runapp-aus.github.io/runapp_website/code-of-conduct.html) which we ask all contributors to adhere to.
+
+We also discuss the project on the runapp Slack, which you can [join](https://runapp-aus.github.io/runapp_website/join.html).
+
+## Colophon {#colophon}
+
+This book was written in [bookdown](http://bookdown.org/) inside [RStudio](http://www.rstudio.com/ide/). The complete source is available from [GitHub](https://github.com/runapp-aus/book). 
+This version of the book was built with `r R.version.string` and the following packages.
+
+```{r, echo = FALSE}
+deps <- renv::dependencies(quiet = TRUE, dev = TRUE)
+pkgs <- sessioninfo::package_info(deps$Package, dependencies = FALSE)
+df <- tibble::tibble(
+  package = pkgs$package,
+  version = pkgs$ondiskversion,
+  source = gsub("@", "\\\\@", pkgs$source)
+)
+knitr::kable(df)
+```
