@@ -1,1 +1,3 @@
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "Get Started" at https://bookdown.org/home/about/ for how to compile this example.
+This is the source code for the [R for Australian Public Policy](https://runapp-aus.github.io/book) online book.
+
+Contributions are welcomed! Please note the runapp [code of conduct](https://runapp-aus.github.io/runapp_website/code-of-conduct.html)
