@@ -1,5 +1,11 @@
+# Inspired by https://github.com/dgrtwo/tidy-text-mining/blob/master/.github/workflows/bookdown.yaml
+
 on:
   push:
+    branches:
+      - main
+      - master
+  pull_request:
     branches:
       - main
       - master
@@ -42,11 +48,9 @@ jobs:
       - name: Build site
         run: Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
 
-      - name: Install npm
-        uses: actions/setup-node@v1
-
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
+        if: github.ref == 'refs/heads/master'
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: _book # The folder the action should deploy.
