@@ -1,0 +1,92 @@
+---
+title: "Public policy"
+author: "DdH"
+date: "14/08/2021"
+output: html_document
+---
+
+# Public policy, data and R 
+
+First, a brief look at what public policy is and how public policy is made. Then a discussion about the role for data in the public policy process, concluding with a look through some sample use cases for R in Australian public policy.
+
+## What is public policy ?
+
+Fundamentally contested. Reference to literature with overview of debates.
+
+In a practical sense most helpful to think of public policy as being the agreed solution to problems that affect the body politic - or at least a significant part of it.
+
+An example public policy problem: With a new method of transport becoming increasingly popular in the public, *should* there or should there not be any regulation of their use?
+
+There are lots of potential answers to this question. Also lots of ways of formulating the question - depending on your point of view/interests.
+
+Various actors in the public policy world, each with a different role in the policy process:
+- The Government (that is the Cabinet and other Ministers);
+- The Parliament (that is all Members of Parliament, including the Cabinet and other Ministers, who pass legislation)
+- The Public Service (that is Departments, agencies and various senior officials appointed by the Parliament to provide policy advice, deliver services and ensure regulation is implemented - consistent with relevant legislation)
+- Not-for-profit organisations
+- Academia and researchers, including thinktanks 
+- Representative organisations, like peak bodies, industry organisations, lobbyists, pressure groups or unions
+- The media
+- The general public
+
+The public policy process is one way of answering these sorts of *should* questions. It produces the Government's agreed answer, which all Ministers agree to support, and to implement through legislation and the public service's administration (as appropriate). 
+
+The public policy process can be oversimplified and presented in a linear way as follows:
+1. Identify a problem
+2. Analyse the problem
+3. Identify policy instruments to solve the problem 
+4. Test the proposed solution (inside and outside government)
+5. Make a decision about a solution
+6. Implement the solution
+7. Evaluate the impact of the solution
+which is likely, at some point, to lead to the identification of a problem (1) and off we go again. For this reason this process is often referred to as the public policy cycle.
+
+Also helpful to think of current legislation (and how it is administered) as the current set of answers to previous policy problems, that have been through the public policy process.
+
+Reference to Australian Public Policy Handbook (7th Ed, circa 2017) (https://catalogue.nla.gov.au/Record/6099836) for more information.
+
+## What role for data in the policy process?
+
+Each of these actors has a different role to play and is likely to have different data needs, challenges and opportunities, reflecting these differing roles. These needs will also differ between the same types of actors. eg. ABS vs policy department vs think tank vs media organisation. 
+Inside government vs outside government
+
+### Data as evidence to inform policy-making
+- identifying policy problems (including administrative problems)
+- tracking policy implementation (including outputs, timeliness, etc.)
+- identifying whether policies are achieving outcomes (impacts)
+- devising new policy problems or solutions
+
+### Data supporting service delivery
+- identifying people who need services (and their entitlement or otherwise to them)
+- enabling efficient administration of programs (eg. pensions, healthcare)
+- 
+
+### Data supporting administrative decision-making
+- 
+
+### Data and regulation
+- managing registers (like drivers' licenses)
+- checking compliance (eg. anti-money laundering, etc.)
+
+
+### Holding government to account
+- using data to analyse and check government and inform public debate
+- identifying and demonstrating the scale of policy problems
+
+## What are some of the use cases for R in Australian public policy?
+
+? Wonder whether this is better structured around actors?
+
+### Reporting status/Communicating evidence
+Often governments decide that the solution to a policy problem is to regulate. Returning to our bicyle example, it might be that governments have decided that they don't have enough information on how dangerous these new vehicles actually are, so the solution is to require any crash to be registered. Of course, having collected all this information, someone is going to ask for a report at some point.
+
+Inside government, to engage a decision-maker, like a Minister, R's data visualisation capabilities can help to show the extent of a problem (or not, as the case may be). R is a popular choice with think tanks and the media outside government for the same reason - it can be used to clearly communicate complex evidence to an audience that is not familiar with the data or the complexity of the topic. The reproducibility of R also helps to ensure that analyses can be repeated robustly, if another actor wants to dig deeper into your analysis. 
+
+? Is there a point here about packages for Markdown and integration with MS Office?
+
+### Bringing data together
+Because of their scale (and some administrative and political history) government is separated into various administrative and governance structures, each headed by different mandarins - often with competing priorities, agendas and constituencies (often Ministers). Some government data is open data, and readily available, but often in small parts and covering different time periods and stored in different ICT systems and platforms.
+
+R has packages to connect to various database types, import a variety of file types and readily join these together to overcome these data silos. There are range of packages that help to import available government data cleanly into R, which help to get onto analysis sooner. This is not unique to R, but the suite of available packages helps a lot.
+
+## Next steps
