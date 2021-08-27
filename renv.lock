@@ -32,10 +32,10 @@
     },
     "bookdown": {
       "Package": "bookdown",
-      "Version": "0.22",
+      "Version": "0.23",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "8fb0b67dfdf9d751fc93cb0036def3cc"
+      "Hash": "bc07f4b5b93bbf21075429e0c7e090f8"
     },
     "brio": {
       "Package": "brio",
