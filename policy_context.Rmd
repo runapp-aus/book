@@ -7,6 +7,8 @@ output: html_document
 
 # Public policy, data and R 
 
+<p style='color: red'>This chapter is a work in progress.</p>
+
 First, a brief look at what public policy is and how public policy is made. Then a discussion about the role for data in the public policy process, concluding with a look through some sample use cases for R in Australian public policy.
 
 ## What is public policy ?
