@@ -59,10 +59,11 @@ Inside government vs outside government
 ### Data supporting service delivery
 - identifying people who need services (and their entitlement or otherwise to them)
 - enabling efficient administration of programs (eg. pensions, healthcare)
-- 
+
 
 ### Data supporting administrative decision-making
-- 
+- List
+- to come
 
 ### Data and regulation
 - managing registers (like drivers' licenses)
