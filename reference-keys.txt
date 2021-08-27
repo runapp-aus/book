@@ -3,3 +3,15 @@ what-we-cover-in-this-book
 what-we-dont-cover-in-this-book
 contributing
 colophon
+public-policy-data-and-r
+what-is-public-policy
+what-role-for-data-in-the-policy-process
+data-as-evidence-to-inform-policy-making
+data-supporting-service-delivery
+data-supporting-administrative-decision-making
+data-and-regulation
+holding-government-to-account
+what-are-some-of-the-use-cases-for-r-in-australian-public-policy
+reporting-statuscommunicating-evidence
+bringing-data-together
+next-steps
